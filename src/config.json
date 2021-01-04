@@ -1,0 +1,39 @@
+{
+  "name": "MSTest",
+  "type": "executer",
+  "execProgram": "node",
+  "main": "app.js",
+  "imgUrl": "logo.png",
+  "version": "1.0.0",
+  "description": "MSTest executer (Windows Only)",
+  "settings": [
+    {
+      "name": "exePath",
+      "viewName": "MSTest path",
+      "type": "string"
+    }
+  ],
+  "methods": [
+    {
+      "name": "runTest",
+      "viewName": "Run Test",
+      "params": [
+        {
+          "name": "testFiles",
+          "viewName": "Test Files",
+          "type": "string"
+        },
+        {
+          "name": "resultPath",
+          "viewName": "Result file path",
+          "type": "string"
+        },
+        {
+          "name": "noisolation",
+          "viewName": "Omit Noisolation",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
