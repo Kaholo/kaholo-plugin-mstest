@@ -4,7 +4,7 @@
   "execProgram": "node",
   "main": "app.js",
   "imgUrl": "logo.png",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MSTest executer (Windows Only)",
   "settings": [
     {
@@ -35,5 +35,6 @@
         }
       ]
     }
-  ]
+  ],
+  "category": "TESTING"
 }
